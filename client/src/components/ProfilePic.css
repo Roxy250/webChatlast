@@ -1,0 +1,51 @@
+.profile-pic-container {
+    text-align: center;
+}
+
+.selected-gender {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.avatar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.avatar-card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.avatar-image {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+}
+
+.apply-button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+.gender-heading {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
